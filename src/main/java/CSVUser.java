@@ -13,6 +13,13 @@ public class CSVUser {
     @CsvBindByName(column = "country", required = true)
     private String country;
 
+    public CSVUser(String name, String email, String phoneNumber, String country) {
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+        this.country = country;
+    }
+
     // METHOD TO RETURN USER DETAILS FROM CSV FILE
     @Override
     public String toString() {
