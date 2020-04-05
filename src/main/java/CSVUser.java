@@ -23,19 +23,19 @@ public class CSVUser {
                 ", country='" + country + '\'' +
                 '}';
     }
-
+    // METHOD TO RETURN NAME
     public String getName() {
         return name;
     }
-
+    // METHOD TO RETURN E-MAIL
     public String getEmail() {
         return email;
     }
-
+    // METHOD TO RETURN PHONE NUMBER
     public String getPhoneNumber() {
         return phoneNumber;
     }
-
+    // METHOD TO RETURN COUNTRY
     public String getCountry() {
         return country;
     }
